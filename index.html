@@ -1,12 +1,170 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cosmos Hotel</title>
+    <title>Hotel Cosmos| Experiență de 5 Stele</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-    <h1>Cosmos Hotel</h1>
+
+    <!-- Header & Hero -->
+    <header class="hero">
+        <nav class="navbar">
+            <div class="logo">Hotel Cosmos</div>
+            <ul class="nav-links">
+                <li><a href="#despre">Despre</a></li>
+                <li><a href="#camere">Camere</a></li>
+                <li><a href="#facilitati">Facilități</a></li>
+                <li><a href="#galerie">Galerie</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+
+        <div class="hero-content">
+            <h1>Bine ați venit la Hotel Cosmos</h1>
+            <p>Lux, confort și ospitalitate de 5 stele</p>
+            <a href="#camere" class="btn-primary">Rezervă acum</a>
+        </div>
+    </header>
+
+    <!-- Despre Noi -->
+    <section id="despre" class="section">
+        <div class="container">
+            <h2 class="section-title">Despre Hotel Cosmos</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Hotel Cosmos este destinația perfectă pentru cei care caută rafinament, confort și o experiență memorabilă. Situat în inima orașului, combinăm eleganța clasică cu facilitățile moderne.</p>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> 5 stele</li>
+                        <li><i class="fas fa-check"></i> Wi-Fi gratuit</li>
+                        <li><i class="fas fa-check"></i> Piscină </li>
+                        <li><i class="fas fa-check"></i> Restaurant</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="https://cdn.prod.website-files.com/5c6d6c45eaa55f57c6367749/65d7ed44d1fd234978f801dc_lobbypix-022224-4.webp" alt="Lobby Hotel Lux">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Camere -->
+    <section id="camere" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Camere & Suite</h2>
+            <div class="rooms-grid">
+                <!-- Camera 1 -->
+                <div class="room-card">
+                    <img src="https://www.laresidenzaroma.com/data/jpg/laresidenza-camere-2810.jpg" alt="Cameră Deluxe">
+                    <div class="room-info">
+                        <h3>Cameră Deluxe</h3>
+                        <p>Pat king-size, balcon privat, vedere la oraș.</p>
+                        <div class="price">de la 1450 MDL / noapte</div>
+                        <a href="#" class="btn-secondary">Detalii</a>
+                    </div>
+                </div>
+
+                <!-- Camera 2 -->
+                <div class="room-card">
+                    <img src="https://www.kayak.it/rimg/himg/68/c4/30/expediav2-79739-0bc5a7-798815.jpg?width=836&height=607&crop=true" alt="Suită Premium">
+                    <div class="room-info">
+                        <h3>Suită Premium</h3>
+                        <p>Living separat, jacuzzi, terasă panoramică.</p>
+                        <div class="price">de la 1890 MDL / noapte</div>
+                        <a href="#" class="btn-secondary">Detalii</a>
+                    </div>
+                </div>
+
+                <!-- Camera 3 -->
+                <div class="room-card">
+                    <img src="https://3stejaribrasov.ro/wp-content/uploads/2022/08/1-1-1024x683.jpg" alt="Suită Executive">
+                    <div class="room-info">
+                        <h3>Suită Executive</h3>
+                        <p>Design modern, birou, baie cu cadă și duș.</p>
+                        <div class="price">de la 2.200 MDL / noapte</div>
+                        <a href="#" class="btn-secondary">Detalii</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilități -->
+    <section id="facilitati" class="section">
+        <div class="container">
+            <h2 class="section-title">Facilități Premium</h2>
+            <div class="facilities-grid">
+                <div class="facility">
+                    <i class="fas fa-swimmer"></i>
+                    <h3>Piscină </h3>
+                    <p>Relaxare cu vedere panoramică.</p>
+                </div>
+                <div class="facility">
+                    <i class="fas fa-spa"></i>
+                    <h3>Spa & Wellness</h3>
+                    <p>Masaj, saună și tratamente de lux.</p>
+                </div>
+                <div class="facility">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Restaurant </h3>
+                    <p>Bucătărie internațională și locală.</p>
+                </div>
+                <div class="facility">
+                    <i class="fas fa-dumbbell"></i>
+                    <h3>Sală de fitness</h3>
+                    <p>Echipamente moderne, antrenor personal.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galerie -->
+    <section id="galerie" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Galerie Foto</h2>
+            <div class="gallery-grid">
+                <img src="https://imageio.forbes.com/specials-images/imageserve/68aafd1e6087d1488d23ff9f/Flowing-exterior-lines-of-Dubai-s-Jumeirah-Marsa-Al-Arab--a-new-ultra-luxury-hotel/0x0.jpg?format=jpg&crop=1920,1080,x0,y0,safe&width=960" alt="Exterior">
+                <img src="https://www.anglershotelmiami.com/images/1700-960/rpp_kimpton_ang_pool_deck_final-1-2-1bce4bc5.jpg" alt="Piscină">
+                <img src="https://cdn.prod.website-files.com/5c6d6c45eaa55f57c6367749/65d7ed44d1fd234978f801dc_lobbypix-022224-4.webp" alt="Lobby">
+                <img src="https://www.laresidenzaroma.com/data/jpg/laresidenza-camere-2810.jpg" alt="Cameră">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contactați-ne</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <p><i class="fas fa-map-marker-alt"></i> Strada Principală 123, Chişinău</p>
+                    <p><i class="fas fa-phone"></i> +373 68 90 90 88</p>
+                    <p><i class="fas fa-envelope"></i> rezervari@hotelcosmos.md</p>
+                </div>
+                <form id="contactForm" class="contact-form">
+                    <input type="text" placeholder="Nume" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Mesaj" rows="5" required></textarea>
+                    <button type="submit" class="btn-primary">Trimite</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Hotel Cosmos. Toate drepturile rezervate.</p>
+        </div>
+    </footer>
+
+    <script src="spp.js"></script>
 </body>
 </html>
